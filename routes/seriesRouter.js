@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const seriesController = require("../controller/seriesController");
+const seriesController = require("../controller/seriesController.js");
 
 // CRUD
 // GET
@@ -14,5 +14,17 @@ router.get("/search/:id", async (req,res) =>{
     });
     }
 });
+
+router.get('/onTheAir7', async (req,res)=> {
+    try {
+        res.json(await seriesController.findOnTheAir7())
+    } catch (err) {
+        return res.status(500).json({
+            messaje: err.message
+        })
+    }
+})
+
+
 
 module.exports = router;

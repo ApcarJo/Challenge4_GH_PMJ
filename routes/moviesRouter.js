@@ -13,6 +13,18 @@ router.get('/', async (req, res) => {
     }
 });
 
+//Búsqueda de película por ID
+router.get('/:id', async (req, res)=> {
+    try {
+        let id = req.params.id;
+        res.json(await moviesController.searchById(id));
+        
+    } catch (err) {
+        return res.status(500).json({
+            mensaje: err.message
+        })
+    }
+})
 
 
 module.exports = router;

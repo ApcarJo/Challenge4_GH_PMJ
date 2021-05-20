@@ -1,4 +1,4 @@
-const axios = require("axios");
+onst axios = require("axios");
 
 class Serie{
 

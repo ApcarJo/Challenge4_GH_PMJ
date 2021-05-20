@@ -4,7 +4,7 @@ const seriesController = require("../controllers/seriesController.js");
 // CRUD
 // GET
 
-router.get("/search/:id", async (req,res) =>{
+router.get("/id/:id", async (req,res) =>{
     try{
         let id = req.params.id;
         res.json(await seriesController.searchById(id));

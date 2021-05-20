@@ -22,9 +22,9 @@ router.get('/:id', async (req, res)=> {             //id/:id
     } catch (err) {
         return res.status(500).json({
             mensaje: err.message
-        })
+        });
     }
-})
+});
 
 // Getting movies by title
 
@@ -35,21 +35,21 @@ router.get('/title/:title', async (req, res)=> {
     } catch (err) {
         return res.status(500).json({
             message: err.message
-        })
+        });
     }
-})
+});
 
-router.get('/search/genre/:code', async (req, res)=> {
+router.get('/search/genre/:movieGenre', async (req, res)=> {
     try {
-        let code = req.params.code;
-        res.json(await moviesController.searchByGenre(code));
-        
+        let movieGenre = req.params.movieGenre;
+        movieGenre = movieGenre.charAt(0).toUpperCase() + movieGenre.slice(1);
+        res.json(await moviesController.searchByGenre(movieGenre));
     } catch (err) {
         return res.status(500).json({
             mensaje: err.message
-        })
+        });
     }
-})
+});
 
 
 module.exports = router;

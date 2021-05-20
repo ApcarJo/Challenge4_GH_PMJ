@@ -19,11 +19,21 @@ class Pelicula{
         return res.data;
     }
 
-    async searchByGenre(code){
-        // let res = await axios.get('https://api.themoviedb.org/3/genre/movie/list?api_key=210d6a5dd3f16419ce349c9f1b200d6d&language=en-US');
-        let res = await axios.get(`https://api.themoviedb.org/3/discover/movie?api_key=210d6a5dd3f16419ce349c9f1b200d6d&with_genres=${code}`);
+    async searchByGenre(movieGenre){
+        
+        let listId = await axios.get('https://api.themoviedb.org/3/genre/movie/list?api_key=210d6a5dd3f16419ce349c9f1b200d6d&language=en-US')
+        
+        let genreId = listId.data.genres;
+        
+        
+        for (let i in genreId){
+            if (movieGenre === genreId[i].name) {
+                let res = await axios.get(`https://api.themoviedb.org/3/discover/movie?api_key=210d6a5dd3f16419ce349c9f1b200d6d&with_genres=${genreId[i].id}`);
+                return res.data;
+            }
+        }
         // https://api.themoviedb.org/3/discover/movie?api_key=210d6a5dd3f16419ce349c9f1b200d6d&with_genres=${code}
-        return res.data;
+        
     }
 
 }

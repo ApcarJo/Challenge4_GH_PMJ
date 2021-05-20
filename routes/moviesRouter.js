@@ -14,7 +14,7 @@ router.get('/', async (req, res) => {
 });
 
 //Búsqueda de película por ID
-router.get('/:id', async (req, res)=> {
+router.get('/id/:id', async (req, res)=> {             //id/:id
     try {
         let id = req.params.id;
         res.json(await moviesController.searchById(id));
@@ -29,7 +29,7 @@ router.get('/:id', async (req, res)=> {
 // Getting movies by title
 
 router.get('/title/:title', async (req, res)=> {
-    try {
+    try {  
         let title = req.params.title;
         res.json(await moviesController.searchByTitle(title));
     } catch (err) {

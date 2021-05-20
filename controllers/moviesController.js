@@ -15,7 +15,7 @@ class Pelicula{
 
     // Method for "Getting movie by title"
     async searchByTitle(title){
-        let res = await axios.get(`https://api.themoviedb.org/3/keyword/${title}/movies?api_key=210d6a5dd3f16419ce349c9f1b200d6d&language=en-US&include_adult=false`)
+        let res = await axios.get(`https://api.themoviedb.org/3/search/movie?api_key=210d6a5dd3f16419ce349c9f1b200d6d&language=en-US&query=${title}&page=1&include_adult=false`)
         return res.data;
     }
 

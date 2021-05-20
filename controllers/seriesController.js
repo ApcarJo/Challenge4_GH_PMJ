@@ -13,6 +13,10 @@ class Serie{
          return res.data;
      }
 
+     async searchByTvTitle(tvTitle){
+         let res = await axios.get(`https://api.themoviedb.org/3/search/tv?api_key=210d6a5dd3f16419ce349c9f1b200d6d&query=${tvTitle}`);
+         return res.data;
+     }
 
 }
 

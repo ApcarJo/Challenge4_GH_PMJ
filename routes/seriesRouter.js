@@ -20,7 +20,7 @@ router.get('/onTheAir7', async (req,res)=> {
         res.json(await seriesController.findOnTheAir7())
     } catch (err) {
         return res.status(500).json({
-            messaje: err.message
+            message: err.message
         })
     }
 })

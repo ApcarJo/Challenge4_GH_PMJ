@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const seriesController = require("../controller/seriesController.js");
+const seriesController = require("../controllers/seriesController.js");
 
 // CRUD
 // GET

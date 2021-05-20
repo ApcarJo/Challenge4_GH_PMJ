@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const moviesController = require("../controller/moviesController.js");
+const moviesController = require("../controllers/moviesController.js");
 
 // CRUD
 

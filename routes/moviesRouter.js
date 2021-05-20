@@ -32,6 +32,17 @@ router.get('/:title', async (req, res)=> {
     try {
         let title = req.params.title;
         res.json(await moviesController.searchById(title));
+    } catch (err) {
+        return res.status(500).json({
+            mensaje: err.message
+        })
+    }
+})
+
+router.get('/search/genre', async (req, res)=> {
+    try {
+        // let id = req.params.id;
+        res.json(await moviesController.searchByGenre());
         
     } catch (err) {
         return res.status(500).json({

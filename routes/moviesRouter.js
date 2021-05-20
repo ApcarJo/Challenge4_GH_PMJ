@@ -26,5 +26,17 @@ router.get('/:id', async (req, res)=> {
     }
 })
 
+router.get('/search/genre', async (req, res)=> {
+    try {
+        // let id = req.params.id;
+        res.json(await moviesController.searchByGenre());
+        
+    } catch (err) {
+        return res.status(500).json({
+            mensaje: err.message
+        })
+    }
+})
+
 
 module.exports = router;

@@ -39,10 +39,10 @@ router.get('/:title', async (req, res)=> {
     }
 })
 
-router.get('/search/genre', async (req, res)=> {
+router.get('/search/genre/:code', async (req, res)=> {
     try {
-        // let id = req.params.id;
-        res.json(await moviesController.searchByGenre());
+        let code = req.params.code;
+        res.json(await moviesController.searchByGenre(code));
         
     } catch (err) {
         return res.status(500).json({

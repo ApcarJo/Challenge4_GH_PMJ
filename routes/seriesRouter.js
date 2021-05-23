@@ -15,7 +15,7 @@ router.get("/id/:id", async (req,res) =>{
     }
 });
 
-router.get('/onTheAir7', async (req,res)=> {
+router.get('/ontheair7', async (req,res)=> {
     try {
         res.json(await seriesController.findOnTheAir7())
     } catch (err) {
@@ -37,10 +37,10 @@ router.get("/title/:tvTitle", async (req,res) => {
     }
 });
 
-router.get("/screenedTheather/:id", async (req, res) => {
+router.get("/screenedtheater/:id", async (req, res) => {
     try{
         let id = req.params.id;
-        res.json(await seriesController.screenedTheather(id));
+        res.json(await seriesController.screenedTheater(id));
     } catch (err){
         return res.status(500).json({
             message: err.message

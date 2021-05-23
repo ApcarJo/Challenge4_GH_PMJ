@@ -84,31 +84,41 @@ module.exports = router;
 This js file **imports the .Router() utility from Express.js**, which is used to **link the moviesRouter and seriesRouter paths, and therefore their content, to index.js**. In this sense, **router.js is merely a link between the main application (index.js) to its dependencies.**
 
 
+## How to...
 
+Clone the project:
+https://github.com/ApcarJo/Challenge4_GH_PMJ.git
 
-## Pedro's part
+Install dependencies: npm i
 
-## Jose Luis' part
+Install Postman from https://www.postman.com/downloads/
 
-## Miguel's part
+Add a new collection and use GET with the address: http://localhost:3000 
+You can find in line 3 of index.js the variable port with 3000, is the port we used by default, you can change it.
 
-## Conclusions
+To search top rated films just write:
+http://localhost:3000/movies
 
-## Objetivo y tecnologías empleadas
+To find films by id just add a number after movies:
+http://localhost:3000/movies/"your number"
 
-## Parte en común
+To find films by title:
+http://localhost:3000/movies/title/"your title"
 
-## Sección de Pedro
+To search movies by genre:
+http://localhost:3000/movies/genre/"your genre"
 
-## Sección de Jose Luis
+To obtain a list of top rated series:
+http://localhost:3000/series/toprated
 
-## Sección de Miguel
+To find a tv show by id:
+http://localhost:3000/series/id/"your id"
 
-## Conclusiones
+To find a serie by their title:
+http://localhost:3000/series/title/"your title"
 
+Obtaining series which will have at least one episode aired in the next seven day:
+http://localhost:3000/series/ontheair7/
 
-
-
-
-
-
+Obtaining series which are screened on theaters:
+http://localhost:3000/series/screenedtheater/

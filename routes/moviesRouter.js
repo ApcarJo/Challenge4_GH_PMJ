@@ -39,7 +39,7 @@ router.get('/title/:title', async (req, res)=> {
     }
 });
 
-router.get('/search/genre/:movieGenre', async (req, res)=> {
+router.get('/genre/:movieGenre', async (req, res)=> {
     try {
         let movieGenre = req.params.movieGenre;
         movieGenre = movieGenre.charAt(0).toUpperCase() + movieGenre.slice(1);

@@ -16,7 +16,7 @@ English
 * [Conclusions](Conclusions)
 
 Español
-* [Objetivo y tecnologias empleadas](##Objetivo-y-tecnologias-empleadas)
+* [Objetivo y tecnologías empleadas](##Objetivo-y-tecnologías-empleadas)
 * [Parte en común](##Parte-en-común)
 * [Sección de Pedro](##Sección-de-Pedro)
 * [Sección de Jose Luis](##Sección-de-Jose-Luis)

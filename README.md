@@ -35,7 +35,7 @@ app.listen(port, () => console.log(`Node server running on http://localhost:${po
 
 ```
 
-This js file 
+This js file:
 1. imported the **Express.js** library,
 2. saved its functionalities on "app",
 3. selected 3000 as the server's port and

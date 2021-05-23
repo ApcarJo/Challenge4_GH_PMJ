@@ -13,7 +13,7 @@ English
 * [Pedro's part](##Pedro's-part)
 * [Jose Luis' part](##Jose-Luis'-part)
 * [Miguel's part](##Miguel's-part)
-* [Conclusions](Conclusions)
+* [Conclusions](##Conclusions)
 
 Español
 * [Objetivo y tecnologías empleadas](##Objetivo-y-tecnologías-empleadas)

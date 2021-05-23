@@ -13,18 +13,18 @@ English
 * [Pedro's part](##Pedro's-part)
 * [Jose Luis' part](##Jose-Luis'-part)
 * [Miguel's part](##Miguel's-part)
-* [Conclusions]()
+* [Conclusions](Conclusions)
 
 Español
-* [Objetivo y tecnologias empleadas]()
-* [Parte en común]()
-* [Sección de Pedro]()
-* [Sección de Jose Luis]()
-* [Sección de Miguel]()
-* [Conclusiones]()
+* [Objetivo y tecnologias empleadas](##Objetivo-y-tecnologias-empleadas)
+* [Parte en común](##Parte-en-común)
+* [Sección de Pedro](##Sección-de-Pedro)
+* [Sección de Jose Luis](##Sección-de-Jose-Luis)
+* [Sección de Miguel](##Sección-de-Miguel)
+* [Conclusiones](##Conclusiones)
 
-
-## Goal
+## English
+## Goal and used technologies
 
 The aim of the project was to develop an API directed to concrete moviedatabase DB endpoints, in order to address to the following functions: <br>
 
@@ -91,6 +91,20 @@ This js file **imports the .Router() utility from Express.js**, which is used to
 ## Jose Luis' part
 
 ## Miguel's part
+
+## Conclusions
+
+## Objetivo y tecnologías empleadas
+
+## Parte en común
+
+## Sección de Pedro
+
+## Sección de Jose Luis
+
+## Sección de Miguel
+
+## Conclusiones
 
 
 

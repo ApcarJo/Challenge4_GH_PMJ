@@ -20,7 +20,6 @@ The aim of the project was to develop an API directed to concrete moviedatabase 
 With that in mind, and taking into consideration that our team was composed of three people, each one of us handled three of those tasks.
 
 ## Common part
-<br>
 
 ### index.js
 ```

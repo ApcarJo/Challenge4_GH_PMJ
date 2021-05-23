@@ -1,7 +1,28 @@
 # Challenge 4: Movies Website Backend
-## Made by [Pedro Agulló](https://github.com/PedroAgullo), [Jose Luis Aparicio](https://github.com/ApcarJo) and [Miguel Torres](https://github.com/migueltmsp)<br><br>
+## Made by [Pedro Agulló](https://github.com/PedroAgullo), [Jose Luis Aparicio](https://github.com/ApcarJo) and [Miguel Torres](https://github.com/migueltmsp)<br>
+## Hecho por [Pedro Agulló](https://github.com/PedroAgullo), [Jose Luis Aparicio](https://github.com/ApcarJo) and [Miguel Torres](https://github.com/migueltmsp)<br>
 
 This project was proposed and deployed on the 4th week of [GeeksHubs' Full Stack Developer Bootcamp](https://geekshubsacademy.com/)
+
+Este proyecto se propuso e implementó en la cuarta semana del [Bootcamp Full Stack Developer de GeeksHubs](https://geekshubsacademy.com/)
+
+## Index
+English
+* [Goal and used technologies](##Goal)
+* [Common part](##Common-part)
+* [Pedro's part](##Pedro's-part)
+* [Jose Luis' part](##Jose-Luis'-part)
+* [Miguel's part](##Miguel's-part)
+* [Conclusions]()
+
+Español
+* [Objetivo y tecnologias empleadas]()
+* [Parte en común]()
+* [Sección de Pedro]()
+* [Sección de Jose Luis]()
+* [Sección de Miguel]()
+* [Conclusiones]
+
 
 ## Goal
 

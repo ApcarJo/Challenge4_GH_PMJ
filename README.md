@@ -96,29 +96,29 @@ Install Postman from https://www.postman.com/downloads/
 Add a new collection and use GET with the address: http://localhost:3000 
 You can find in line 3 of index.js the variable port with 3000, is the port we used by default, you can change it.
 
-To search top rated films just write:
+To search top rated films just write:<br>
 http://localhost:3000/movies
 
-To find films by id just add a number after movies:
-http://localhost:3000/movies/"your number"
+To find films by id just add a number after movies:<br>
+http://localhost:3000/movies/(your number)
 
-To find films by title:
-http://localhost:3000/movies/title/"your title"
+To find films by title:<br>
+http://localhost:3000/movies/title/(your title)
 
-To search movies by genre:
-http://localhost:3000/movies/genre/"your genre"
+To search movies by genre:<br>
+http://localhost:3000/movies/genre/(your genre)
 
-To obtain a list of top rated series:
+To obtain a list of top rated series:<br>
 http://localhost:3000/series/toprated
 
-To find a tv show by id:
-http://localhost:3000/series/id/"your id"
+To find a tv show by id:<br>
+http://localhost:3000/series/id/(your id)
 
-To find a serie by their title:
-http://localhost:3000/series/title/"your title"
+To find a serie by their title:<br>
+http://localhost:3000/series/title/(your title)
 
-Obtaining series which will have at least one episode aired in the next seven day:
+Obtaining series which will have at least one episode aired in the next seven day:<br>
 http://localhost:3000/series/ontheair7/
 
-Obtaining series which are screened on theaters:
+Obtaining series which are screened on theaters:<br>
 http://localhost:3000/series/screenedtheater/

@@ -37,6 +37,17 @@ router.get("/title/:tvTitle", async (req,res) => {
     }
 });
 
+router.get("/screenedTheather/:id", async (req, res) => {
+    try{
+        let id = req.params.id;
+        res.json(await seriesController.screenedTheather(id));
+    } catch (err){
+        return res.status(500).json({
+            message: err.message
+        });
+    }
+})
+
 
 
 module.exports = router;

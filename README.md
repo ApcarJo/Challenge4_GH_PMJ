@@ -61,7 +61,7 @@ router.use('/series', seriesRouter);
 module.exports = router;
 
 ```
-
+This js file **imports the .Router() utility from Express.js**, which is used to **link the moviesRouter and seriesRouter paths, and therefore their content, to index.js**. In this sense, **router.js is merely a link between the main application (index.js) to its dependencies.**
 
 
 

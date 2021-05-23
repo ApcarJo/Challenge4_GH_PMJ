@@ -100,22 +100,22 @@ To search top rated films just write:<br>
 http://localhost:3000/movies
 
 To find films by id just add a number after movies:<br>
-http://localhost:3000/movies/(your number)
+http://localhost:3000/movies/ (your number)
 
 To find films by title:<br>
-http://localhost:3000/movies/title/(your title)
+http://localhost:3000/movies/title/ (your title)
 
 To search movies by genre:<br>
-http://localhost:3000/movies/genre/(your genre)
+http://localhost:3000/movies/genre/ (your genre)
 
 To obtain a list of top rated series:<br>
 http://localhost:3000/series/toprated
 
 To find a tv show by id:<br>
-http://localhost:3000/series/id/(your id)
+http://localhost:3000/series/id/ (your id)
 
 To find a serie by their title:<br>
-http://localhost:3000/series/title/(your title)
+http://localhost:3000/series/title/ (your title)
 
 Obtaining series which will have at least one episode aired in the next seven day:<br>
 http://localhost:3000/series/ontheair7/
